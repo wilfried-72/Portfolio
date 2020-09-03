@@ -1,7 +1,7 @@
 <template>
   <div class="q-pa-md">
       <div class="row">
-          <div class="col-6">
+          <div class="col-6 col-md-6 col-xs-12">
             <q-img
             transition="jump-up"
             src="~assets/images/skill/skill.webp"
@@ -12,7 +12,7 @@
             </div> -->
             </q-img>
           </div>
-          <div class="col-6">
+          <div class="col-6 col-md-6 col-xs-12">
               <div class="q-ma-md text-grey-4">
                   <h1><u>{{ title }}</u></h1>
               </div>
@@ -59,67 +59,67 @@ export default {
       skill: [
         {
           name: 'LINUX',
-          img: 'images/skill/linux.png',
+          img: require('assets/images/skill/linux.png'),
           value: 80
         },
         {
           name: 'HTML',
-          img: 'images/skill/html.png',
+          img: require('assets/images/skill/html.png'),
           value: 80
         },
         {
           name: 'CSS',
-          img: 'images/skill/css.png',
+          img: require('assets/images/skill/css.png'),
           value: 80
         },
         {
           name: 'GRID/FLEX',
-          img: 'images/skill/flex_grid.png',
+          img: require('assets/images/skill/flex_grid.png'),
           value: 60
         },
         {
           name: 'SASS',
-          img: 'images/skill/sass.jpeg',
+          img: require('assets/images/skill/sass.jpeg'),
           value: 70
         },
         {
           name: 'NGINX',
-          img: 'images/skill/nginx.png',
+          img: require('assets/images/skill/nginx.png'),
           value: 60
         },
         {
           name: 'LINUX-SERVER',
-          img: 'images/skill/linux_server.jpeg',
+          img: require('assets/images/skill/linux_server.jpeg'),
           value: 20
         },
         {
           name: 'BOOTSTRAP',
-          img: 'images/skill/bootstrapp.png',
+          img: require('assets/images/skill/bootstrapp.png'),
           value: 80
         },
         {
           name: 'NodeJs',
-          img: 'images/skill/nodejs.png',
+          img: require('assets/images/skill/nodejs.png'),
           value: 50
         },
         {
           name: 'Java Script',
-          img: 'images/skill/js.png',
+          img: require('assets/images/skill/js.png'),
           value: 5
         },
         {
           name: 'Quasar',
-          img: 'images/skill/quasar.png',
+          img: require('assets/images/skill/quasar.png'),
           value: 10
         },
         {
           name: 'VueJs',
-          img: 'images/skill/vuejs.png',
+          img: require('assets/images/skill/vuejs.png'),
           value: 5
         },
         {
           name: 'MongoDB',
-          img: 'images/skill/mongodb.png',
+          img: require('assets/images/skill/mongodb.png'),
           value: 1
         }
       ]

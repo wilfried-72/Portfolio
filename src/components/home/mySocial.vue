@@ -1,7 +1,7 @@
 <template>
   <div class="q-pa-md">
       <div class="row">
-          <div class="col-6">
+          <div class="col-6 col-xs-12">
             <q-img
             transition="scale"
             src="~assets/images/reseau/reseau.jpeg"
@@ -12,7 +12,7 @@
             </div>
             </q-img>
           </div>
-          <div class="col-6">
+          <div class="col-6 col-xs-12">
               <div class="q-ma-md text-grey-4">
                   <h4><u>{{ title }}</u></h4>
               </div>
@@ -53,17 +53,17 @@ export default {
         {
           name: 'Linkedin',
           link: 'https://www.linkedin.com/in/wilfried-zanni-4531b0186',
-          img: ' /images/reseau/linkedin.webp'
+          img: require('assets/images/reseau/linkedin.webp')
         },
         {
           name: 'Slack',
           link: 'https://slack.com/intl/fr-fr/',
-          img: ' /images/reseau/slack.png'
+          img: require('assets/images/reseau/slack.png')
         },
         {
           name: 'GitHub',
           link: 'https://github.com/wilfried-72',
-          img: '/images/reseau/github.png'
+          img: require('assets/images/reseau/github.png')
         }
       ]
     }

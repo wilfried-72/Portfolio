@@ -1,14 +1,17 @@
 {
-  "name": "porfolio-quasar",
+  "name": "porfolio-wil",
   "version": "0.0.1",
-  "description": "Tuto Porfolio Quasar App Js",
-  "productName": "Porfolio Quasar App Tuto",
-  "author": "xdrkush <drkushikush@gmail.com>",
+  "description": "Porfolio Quasar App Js",
+  "productName": "Porfolio Quasar App wil",
+  "author": "wil72",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",
     "test": "echo \"No test specified\" && exit 0",
-    "dev": "quasar dev"
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "start": "node server.js",
+    "heroku-postbuild": "npm i && npm run build"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
