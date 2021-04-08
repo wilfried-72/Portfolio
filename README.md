@@ -1,5 +1,5 @@
 # Portfolio
-Portfolio-Quasar
+Portfolio-Quasar-Exemple-Morgab
 
 # porfolio-quasar
 tuto porfolio quasar vue js 100% front end
@@ -15,3 +15,4 @@ npm run dev
 
 Exemple:
 https://portfolio-quasar.herokuapp.com
+
